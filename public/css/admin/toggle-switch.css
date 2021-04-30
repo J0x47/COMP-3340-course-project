@@ -1,0 +1,47 @@
+.toggle-state {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 79px;
+  height: 34px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #707070;
+  transition: background-color ease 0.3s;
+}
+
+.toggle-state:before {
+  content: "Enable Disable";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  left: 1px;
+  top: 3px;
+  border-radius: 50%;
+  font: 11px/28px Helvetica;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  text-indent: -39px;
+  word-spacing: 34px;
+  color: #fff;
+  text-shadow: -1px -1px rgba(0,0,0,0.15);
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+}
+
+.toggle-state:checked {
+  background-color: #4CD964;
+}
+
+.toggle-state:checked:before {
+  left: 48px;
+}

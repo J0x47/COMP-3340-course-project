@@ -1,0 +1,485 @@
+/* ON */
+set @region_code = 'ON';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Ajax",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Amherstburg",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Aurora",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Barrie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Belleville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bracebridge",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bradford West Gwillimbury",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brampton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brant",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brantford",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brockville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Burlington",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Caledon",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cambridge",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Carleton Place",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Chatham - Kent",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Clarence-Rockland",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Clarington",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cobourg",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Collingwood",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cornwall",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "East Gwillimbury",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Elliot Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Erin",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Essex",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Erie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Georgina",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Gravenhurst",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Greater Sudbury",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Grimsby",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Guelph",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Haldimand",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Halton Hills",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Hamilton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Hawkesbury",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Huntsville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Ingersoll",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Innisfil",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kawartha Lakes",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kenora",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kingston",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kingsville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kitchener",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lakeshore",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "LaSalle",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Leamington",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lincoln",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "London",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Markham",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Midland",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Milton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mississauga",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mississippi Mills",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Napanee",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Newmarket",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "New Tecumseth",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Niagara Falls",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Niagara-on-the-Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Norfolk",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "North Bay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Oakville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Orangeville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Orillia",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Oshawa",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Ottawa",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Owen Sound",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pelham",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pembroke",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Petawawa",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Peterborough",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pickering",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Port Colborne",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Port Hope",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Prince Edward",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Quinte West",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Richmond Hill",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sarnia",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saugeen Shores",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sault Ste. Marie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "St. Catharines",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "St. Thomas",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Stratford",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Tecumseh",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Temiskaming Shores",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Thorold",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Thunder Bay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Tillsonburg",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Timmins",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Toronto",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Vaughan",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Wasaga Beach",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Waterloo",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Welland",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Whitby",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Whitchurch - Stouffville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Windsor",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Woodstock",  NOW(), NOW());
+
+/* AB */
+set @region_code = 'AB';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Airdrie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Beaumont",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Blackfalds",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brooks",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Calgary",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Camrose",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Canmore",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Chestermere",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cochrane",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cold Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Edmonton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Saskatchewan",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Grande Prairie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "High River",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Hinton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lacombe",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Leduc",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lethbridge",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lloydminster",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Medicine Hat",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Morinville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Okotoks",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Red Deer",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Spruce Grove",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "St. Albert",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Stony Plain",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Strathcona County",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Strathmore",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sylvan Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Wetaskiwin",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Whitecourt",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Wood Buffalo",  NOW(), NOW());
+
+/* BC */
+set @region_code = 'BC';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Abbotsford",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Burnaby",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Campbell River",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Central Saanich",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Chilliwack",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Coldstream",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Colwood",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Comox",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Coquitlam",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Courtenay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cranbrook",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dawson Creek",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Delta",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Esquimalt",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort St. John",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kamloops",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kelowna",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lake Country",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Langford",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Langley",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Maple Ridge",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mission",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Nanaimo",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Nelson",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "New Westminster",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "North Cowichan",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "North Saanich",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "North Vancouver",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Oak Bay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Parksville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Penticton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pitt Meadows",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Port Alberni",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Port Coquitlam",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Port Moody",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Powell River",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Prince George",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Prince Rupert",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Quesnel",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Richmond",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saanich",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Salmon Arm",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sechelt",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sidney",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sooke",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Squamish",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Summerland",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Surrey",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Terrace",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Vancouver",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Vernon",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Victoria",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "View Royal",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "West Kelowna",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "West Vancouver",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Whistler",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "White Rock",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Williams Lake",  NOW(), NOW());
+
+
+
+/* MB */
+set @region_code = 'MB';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brandon",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dauphin",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Flin Flon",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Morden",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Portage la Prairie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Selkirk",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Steinbach",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "The Pas",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Thompson",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Winkler",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Winnipeg",  NOW(), NOW());
+
+
+/* NB */
+set @region_code = 'NB';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bathurst",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Campbellton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dieppe",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Edmundston",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fredericton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Grand Bay - Westfield",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Grand Falls",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Miramichi",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Moncton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Oromocto",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Quispamsis",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Riverview",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rothesay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sackville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint John",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Shediac",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Woodstock",  NOW(), NOW());
+
+
+
+/* NL */
+set @region_code = 'NL';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bay Roberts",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Clarenville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Conception Bay South",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Corner Brook",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Deer Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Gander",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Grand Falls - Windsor",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Happy Valley - Goose Bay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Labrador City",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Marystown",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mount Pearl",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Paradise",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Portugal Cove - St. Philip's",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "St. John's",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Stephenville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Torbay",  NOW(), NOW());
+
+
+/* YT */
+set @region_code = 'YT';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Carmacks",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dawson City",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Faro",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Haines Junction",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Ibex Valley",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mt. Lorne",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pelly Crossing",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Ross River",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Tagish",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Watson Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Whitehorse",  NOW(), NOW());
+
+
+
+
+/* SK */
+set @region_code = 'SK';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Estevan",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Humboldt",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Martensville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Meadow Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Melfort",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Moose Jaw",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "North Battleford",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Prince Albert",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Regina",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saskatoon",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Swift Current",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Warman",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Weyburn",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Yorkton",  NOW(), NOW());
+
+
+
+/* QC */
+set @region_code = 'QC';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Alma",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Amos",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Baie-Comeau",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Beaconsfield",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Beauharnois",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bécancour",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Beloeil",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Blainville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Boisbriand",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bois-des-Filion",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Boucherville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bromont",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Brossard",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Candiac",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cantley",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Carignan",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Chambly",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Châteauguay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Côte-Saint-Luc",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cowansville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Deux-Montagnes",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dolbeau-Mistassini",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dollard-Des Ormeaux",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Dorval",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Drummondville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Gaspé",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Gatineau",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Granby",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Joliette",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kahnawake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kirkland",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lachute",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "L'Ancienne-Lorette",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "La Prairie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "L'Assomption",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "La Tuque",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Laval",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lavaltrie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Les Îles-de-la-Madeleine",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Lévis",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "L'Île-Perrot",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Longueuil",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Magog",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Marieville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mascouche",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Matane",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mercier",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mirabel",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mont-Laurier",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Montmagny",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Montréal",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mont-Royal",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mont-Saint-Hilaire",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Mont-Tremblant",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Notre-Dame-de-l'Île-Perrot",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pincourt",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pointe-Claire",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pont-Rouge",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Prévost",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Québec",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rawdon",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Repentigny",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rimouski",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rivière-du-Loup",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Roberval",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rosemère",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rouyn-Noranda",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saguenay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Amable",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Augustin-de-Desmaures",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Basile-le-Grand",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Bruno-de-Montarville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Charles-Borromée",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Colomban",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Constant",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Adèle",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Agathe-des-Monts",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Anne-des-Plaines",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Catherine",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Julie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Julienne",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Marie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Marthe-sur-le-Lac",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Sophie",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sainte-Thérèse",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Eustache",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Félicien",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Georges",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Hyacinthe",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Jean-sur-Richelieu",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Jérôme",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Lambert",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Lazare",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Lin - Laurentides",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Raymond",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Saint-Sauveur",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Salaberry-de-Valleyfield",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sept-Îles",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Shawinigan",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sherbrooke",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Sorel-Tracy",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Terrebonne",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Thetford Mines",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Trois-Rivières",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Val-des-Monts",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Val-d'Or",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Varennes",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Vaudreuil-Dorion",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Victoriaville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Westmount",  NOW(), NOW());
+
+
+
+/* PE */
+set @region_code = 'PE';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Alberton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Charlottetown",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cornwall",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Georgetown",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kensington",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Montague",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Souris",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Stratford",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Summerside",  NOW(), NOW());
+
+
+
+/* NU */
+set @region_code = 'NU';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Arviat",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Baker Lake",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cambridge Bay",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cape Dorset",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Gjoa Haven",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Igloolik",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Iqaluit",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kugluktuk",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Naujaat",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pangnirtung",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Pond Inlet",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Rankin Inlet",  NOW(), NOW());
+
+
+/* NS */
+set @region_code = 'NS';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Amherst",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Antigonish",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Bridgewater",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Cape Breton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Halifax",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Kentville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "New Glasgow",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Stellarton",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Truro",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Wolfville",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Yarmouth",  NOW(), NOW());
+
+/* NT */
+set @region_code = 'NT';
+select @region_id := id from regions where code = @region_code;
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Aklavik",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Behchokò",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Good Hope",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Liard",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort McPherson",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Providence",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Simpson",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Fort Smith",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Hay River",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Inuvik",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Norman Wells",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Tuktoyaktuk",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Whatì",  NOW(), NOW());
+insert into `cities` (`region_id`, `name`, `created_at`, `updated_at`) VALUES (@region_id, "Yellowknife",  NOW(), NOW());
+
+
+
+
+
+
